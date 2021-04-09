@@ -18,3 +18,5 @@
 - Step5. ./converter.py -i your_note_link -f test.md -o new.md
 
 - 然后在运行目录下应该就能看到转换后的、自带印象笔记图床链接的Markdown了。这下你就可以随意移动它了。
+
+> 上述过程我目前还没想到一个比较好的自动化方案，欢迎交流与指正 🙏🏻
