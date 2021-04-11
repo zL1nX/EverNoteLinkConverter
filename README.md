@@ -15,7 +15,7 @@
 - Step2. pip3 install -r requirements.txt
 - Step3. 在印象笔记客户端中点击共享**旁边**的分享按钮，选择「复制链接」，保存这个链接
 - Step4. 拷贝要转换的Markdown到本地，如test.md（记得确认下拷贝内容是完整的，比如tab、>等特殊字符是否会保留，Typora记得切换到源代码模式下再粘贴）
-- Step5. ./converter.py -i your_note_link -f test.md -o new.md
+- Step5. ./ImageConverter.py -i your_note_link -f test.md -o new.md -t wait_interval
 
 - 然后在运行目录下应该就能看到转换后的、自带印象笔记图床链接的Markdown了。这下你就可以随意移动它了。
 
