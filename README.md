@@ -23,3 +23,6 @@
 
 ## 2021.4.11
 - 印象笔记分享的笔记链接中会有部分图片无法加载，可能是印象笔记服务器的bug之类的，因此在脚本中加了个MISS_PATTERN的判断
+- github使用CMAO服务来存储文件中的资源（比如外链中的图片），CMAO只能解析那些返回content-type为image的外链图片，但印象笔记这个链接返回的是一个octect stream
+  - 所以转换后的markdown在github也无法显示图片（淦）
+  - 但在其他在线平台（比如知乎）等markdown解析器或者本地的typora、vscode等都能正常显示
